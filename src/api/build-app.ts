@@ -3,7 +3,7 @@ import {
   ChainUnavailableError,
   type ChainProbe,
 } from "../application/chain-probe";
-import { DemoChainProbe } from "../infrastructure/demo-chain-probe";
+import { DemoChainProbe } from "../infrastructure/demo/demo-chain-probe";
 
 type BuildOptions = {
   chainProbe?: ChainProbe;

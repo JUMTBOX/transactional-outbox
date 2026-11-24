@@ -1,4 +1,4 @@
-import { ChainProbe } from "../application/chain-probe";
+import { ChainProbe } from "../../application/chain-probe";
 
 export class DemoChainProbe implements ChainProbe {
   async getChainId(): Promise<number> {
