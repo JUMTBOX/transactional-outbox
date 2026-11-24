@@ -21,6 +21,7 @@ function required(name: string): string {
 const rpcUrl = required("ANVIL_RPC_URL");
 const privateKey = required("ANVIL_PRIVATE_KEY") as `0x${string}`;
 const recipientAddress = required("ANVIL_RECIPIENT_ADDRESS") as `0x${string}`;
+
 const account = privateKeyToAccount(privateKey);
 
 const publicClient = createPublicClient({
