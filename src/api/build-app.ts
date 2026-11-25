@@ -32,7 +32,6 @@ export function buildApp(options: BuildOptions = {}) {
           message: "chain is temporarily unavailable",
         });
       }
-
       throw error;
     }
   });
